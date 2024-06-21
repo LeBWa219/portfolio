@@ -1,0 +1,116 @@
+body{
+  min-width: 1024px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 900;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 30px;
+}
+a{
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: black;
+  display: block;
+  text-align: right;
+}
+a:hover{
+  text-decoration: none;
+}
+
+header{
+  min-width: 1024px;
+  width: 90vw;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  background-image: url(../img/img1.jpg);
+  background-size: contain;
+  height: 100%;
+  width: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu{
+  height: 100%;
+  width: 70%;
+  border-left: 1px solid black;
+  padding-right: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.menu a{
+  width: 200px;
+  padding: 10px;
+}
+.menuSocial{
+  margin-top: 30px;
+}
+
+
+section{
+  margin: 0 auto;
+  min-width: 1024px;
+  width: 90vw;
+  border: 1px solid black;
+  border-top: px;
+}
+
+.about{
+  height: 600px;
+}
+
+.about p{
+  height: 100%;
+  max-height: 1000px;
+  width: 100%;
+  padding: 50px 30px 0 80px;
+  font-size: 35px;
+  margin: 2px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.wrapper{
+  border-top: 1px solid black;
+  display: flex;
+}
+
+.portfolioWrapper{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  align-items: center;
+}
+
+.portfolioImage{
+  width: 29%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px;
+  padding-top: 70px;
+}
